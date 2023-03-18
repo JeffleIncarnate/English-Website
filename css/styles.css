@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+body {
+  background-color: #faf9f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier Prime", monospace;
+}
+
+.FAR__Header {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/Docs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.FAR__Header-Nav {
+  height: 20%;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FAR__Header-Nav > img {
+  max-width: 80px;
+  margin-left: 1rem;
+}
+
+.FAR__Header-Nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FAR__Header-Nav > ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.FAR__Header-Nav > ul li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.FAR__Header-Nav > ul li a:hover {
+  color: red;
+}
+
+.FAR__Header-Splash {
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  color: white;
+}
+
+.FAR__Header-Splash > h1 {
+  font-size: 4rem;
+}
+
+.FAR__Header-Splash > img {
+  width: 20%;
+}
+
+/* ---- MAIN ---- */
+main {
+  width: 100%;
+  margin: 5rem 0;
+}
+
+.FAR__Main-Services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FAR__Main-Services > h2 {
+  font-size: 3rem;
+}
+
+.FAR__Main-Services__Wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FAR__Main-Services-Div {
+  width: 20%;
+  margin: 3%;
+}
+
+.FAR__Main-Services-Div > p {
+  margin: 1rem;
+}
+
+.redacted {
+  background-color: black;
+  border-radius: 0.3rem;
+  padding: 0.1rem;
+  color: black;
+}
