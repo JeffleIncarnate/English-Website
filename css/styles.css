@@ -56,10 +56,30 @@ body {
   font-size: 1.2rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FAR__Header-Nav > ul li a::after {
+  content: "";
+  width: 100%;
+  height: 0.2rem;
+  background-color: red;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 0.6rem;
+  opacity: 0%;
 }
 
 .FAR__Header-Nav > ul li a:hover {
   color: red;
+}
+
+.FAR__Header-Nav > ul li a:hover::after {
+  top: 0rem;
+  opacity: 100%;
 }
 
 .FAR__Header-Splash {
