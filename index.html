@@ -10,21 +10,30 @@
       src="https://kit.fontawesome.com/866b8b01f2.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./js/censorship.js"></script>
+    <link rel="icon" type="image" href="./assets/Fire-NoBG.png" />
   </head>
-  <body>
+  <body id="background">
     <header class="FAR__Header">
       <nav class="FAR__Header-Nav">
         <img src="./assets/Fire-NoBG.png" alt="" />
 
         <ul>
-          <li><a href="#">Quiz</a></li>
-          <li><a href="#">Details</a></li>
-          <li><a href="#">History</a></li>
+          <li><a data-value="QUIZ" id="one" href="#">QUIZ</a></li>
+          <li><a data-value="DETAILS" id="two" href="#">DETAILS</a></li>
+          <li>
+            <a data-value="HISTORY" id="three" href="./pages/history.html"
+              >HISTORY</a
+            >
+          </li>
         </ul>
       </nav>
 
       <div class="FAR__Header-Splash">
-        <h1>Farenheight 451.gov</h1>
+        <div>
+          <h1>Farenheight 451.gov</h1>
+          <p>Codename: Censorship</p>
+        </div>
         <img src="./assets/Fire-NoBG.png" alt="Image of Fire" />
       </div>
     </header>
@@ -37,8 +46,8 @@
           <div class="FAR__Main-Services-Div">
             <h3>Education</h3>
             <p>
-              Come to <span class="redacted">JKHDFKJHDKJHF</span> to find
-              <span class="redacted">schools</span> near you!
+              Come to <span class="redacted">[REDACTED]</span> to find
+              <span class="redacted">[REDACTED]</span> near you!
             </p>
           </div>
 
@@ -52,10 +61,10 @@
             <p>
               Books are
               <span class="redacted"
-                >KJDHFKJH KSJDHFLKJSDHF KSJHDFSKDJHF KJHDSFKJSHDFj</span
+                >[REDACTED] [REDACTED] [REDACTED] [REDACTED]</span
               >
               and if you are caught with them
-              <span class="redacted">KJFSDHKLJFHSLKDJHF</span>
+              <span class="redacted">[REDACTED][REDACTED]</span>
             </p>
           </div>
         </div>
@@ -65,11 +74,13 @@
             <h3>Laws and Legal</h3>
             <p>
               <span class="redacted">
-                SKDLJFHSDLKJF HKSJHD FKSJHD FLKJHS DFKLJHS DFKLJHSDF</span
+                [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+                [REDACTED]</span
               >
               something else
               <span class="redacted">
-                SKDLJFHSDLKJF HKSJHD FKSJHD FLKJHS DFKLJHS DFKLJHSDF</span
+                [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]
+                [REDACTED]</span
               >
             </p>
           </div>
@@ -78,9 +89,9 @@
             <h3>Elections</h3>
             <p>
               Elections happen once every
-              <span class="redacted"> KJDHFKJSHD FKH KJHSDF </span>
+              <span class="redacted"> [REDACTED] [REDACTED]</span>
               and they are decided by
-              <span class="redacted"> KJHDSFKLJHSDF KSJHD FKJH</span>
+              <span class="redacted"> [REDACTED] [REDACTED] [REDACTED]</span>
             </p>
           </div>
 
@@ -88,12 +99,18 @@
             <h3>Fire Fighters</h3>
             <p>
               Fire fighters are
-              <span class="redacted">ADKJHFKLJSDHFKLJDHSF</span>
+              <span class="redacted">[REDACTED][REDACTED][REDACTED]</span>
               they are then put
-              <span class="redacted">KHFSDKLJFH KJH SDFKJ HKSJHDF</span>
+              <span class="redacted"
+                >[REDACTED] [REDACTED] [REDACTED] [REDACTED]</span
+              >
             </p>
           </div>
         </div>
+      </div>
+
+      <div class="FAR__Main-Book">
+        <div></div>
       </div>
     </main>
   </body>
