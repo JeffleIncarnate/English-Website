@@ -53,7 +53,7 @@ body {
 
 .FAR__Header-Nav > ul li a {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   display: flex;
@@ -91,7 +91,7 @@ body {
   color: white;
 }
 
-.FAR__Header-Splash > h1 {
+.FAR__Header-Splash h1 {
   font-size: 4rem;
 }
 
