@@ -19,7 +19,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../assets/Docs.png");
+    url("../assets/DocsAgain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -97,47 +97,6 @@ body {
 
 .FAR__Header-Splash > img {
   width: 20%;
-}
-
-/* ---- MAIN ---- */
-main {
-  width: 100%;
-  margin: 5rem 0;
-}
-
-.FAR__Main-Services {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.FAR__Main-Services > h2 {
-  font-size: 3rem;
-}
-
-.FAR__Main-Services__Wrapper {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.FAR__Main-Services-Div {
-  width: 20%;
-  margin: 3%;
-}
-
-.FAR__Main-Services-Div > p {
-  margin: 1rem;
-}
-
-.redacted {
-  background-color: black;
-  border-radius: 0.3rem;
-  padding: 0.1rem;
-  color: black;
 }
 
 /* ---- FOOTER ---- */

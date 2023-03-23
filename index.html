@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farenheight 451</title>
+    <title>Home | Farenheight 451</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script
       src="https://kit.fontawesome.com/866b8b01f2.js"
@@ -16,11 +16,17 @@
   <body id="background">
     <header class="FAR__Header">
       <nav class="FAR__Header-Nav">
-        <img src="./assets/Fire-NoBG.png" alt="" />
+        <a href="./index.html"> <img src="./assets/Fire-NoBG.png" alt="" /></a>
 
         <ul>
-          <li><a data-value="QUIZ" id="one" href="#">QUIZ</a></li>
-          <li><a data-value="DETAILS" id="two" href="#">DETAILS</a></li>
+          <li>
+            <a data-value="QUIZ" id="one" href="./pages/quiz.html">QUIZ</a>
+          </li>
+          <li>
+            <a data-value="DETAILS" id="two" href="./pages/details.html"
+              >DETAILS</a
+            >
+          </li>
           <li>
             <a data-value="HISTORY" id="three" href="./pages/history.html"
               >HISTORY</a
@@ -108,10 +114,22 @@
           </div>
         </div>
       </div>
-
-      <div class="FAR__Main-Book">
-        <div></div>
-      </div>
     </main>
+
+    <footer>
+      <h2>Farenheight 451</h2>
+
+      <ul>
+        <li>
+          <a data-value="QUIZ" id="one_foot" href="./pages/quiz.html">QUIZ</a>
+        </li>
+        <li><a data-value="DETAILS" id="two_foot" href="#">DETAILS</a></li>
+        <li>
+          <a data-value="HISTORY" id="three_foot" href="./pages/history.html">
+            HISTORY
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
