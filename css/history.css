@@ -152,21 +152,19 @@ body {
   background-color: red;
   border-radius: 50%;
   position: absolute;
+  left: 58.78rem;
 }
 
 .circle_one {
   top: 64rem;
-  left: 58.7rem;
 }
 
 .circle_two {
   top: 100rem;
-  left: 58.7rem;
 }
 
 .circle_three {
   top: 135rem;
-  left: 58.7rem;
 }
 
 /* ---- FOOTER ---- */
