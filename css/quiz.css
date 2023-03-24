@@ -150,8 +150,18 @@ main > div > form > div > label::after {
 main > div > form > button {
   width: 20%;
   padding: 0.6rem;
+  border: 2px solid white;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+main > div > form > button:hover {
+  width: 20%;
+  padding: 0.6rem;
   border: 2px solid red;
-  background-color: transparent;
+  background-color: white;
 }
 
 /* ---- FOOTER ---- */
