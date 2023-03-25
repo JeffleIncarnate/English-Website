@@ -8,8 +8,10 @@ function onComplete() {
 
   for (const [key, value] of Object.entries(dict)) {
     if (value === "") {
-      alert("Error code: C404, CENSORSHIP");
-      break;
+      alert(
+        "Error code: C404, CENSORSHIP. YOU ARE REQUIRED TO ANSWER ALL THE QUESTIONS"
+      );
+      return;
     }
   }
 
@@ -26,12 +28,16 @@ function onComplete() {
   }
 
   if (dict.q1 !== "Unknown") {
-    alert("Error code: C404, CENSORSHIP: Name needs to be 'Guy Montag'");
+    alert(
+      "Error code: C404, CENSORSHIP: Question 3 answer needs to be 'Unknown'"
+    );
     return;
   }
 
   if (dict.q2 !== "Unknown") {
-    alert("Error code: C404, CENSORSHIP: Name needs to be 'Guy Montag'");
+    alert(
+      "Error code: C404, CENSORSHIP: Question 4 answer needs to be 'Unknown'"
+    );
     return;
   }
 
