@@ -167,6 +167,29 @@ body {
   top: 135rem;
 }
 
+.cover {
+  width: 15rem;
+  height: 4rem;
+  background-color: black;
+  position: absolute;
+  z-index: 1000;
+}
+
+.cover_one {
+  top: 59rem;
+  left: 35rem;
+}
+
+.cover_two {
+  top: 97rem;
+  right: 35rem;
+}
+
+.cover_three {
+  top: 132rem;
+  left: 32rem;
+}
+
 /* ---- FOOTER ---- */
 footer {
   margin-top: 5rem;
