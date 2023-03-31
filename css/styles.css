@@ -430,3 +430,33 @@ footer > ul > li a:hover::after {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: red;
 }
+
+.FAR__Main-LearnMore {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.FAR__Main-LearnMore h2 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.FAR__Main-LearnMore a {
+  border: 0.2rem solid red;
+  padding: 2rem 5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: red;
+}
+
+.FAR__Main-LearnMore a:hover {
+  transform: translate(5px, -5px);
+}
